@@ -58,7 +58,19 @@
 			<class
 				name="com.finaltest.puttingitalltogether.SauceDemoTestParametersFinal" />
 		</classes>
-	</test> <!--
-	Test -->
+	</test>
+
+	<test thread-count="5" name="Jenkins User Login">
+		<parameter name="username" value="cosmos"></parameter>
+		<parameter name="password" value="jupiter"></parameter>
+		<classes>
+			<class
+				name="com.finaltest.puttingitalltogether.JenkinsFinaleClass">
+				
+			</class>
+		</classes>
+	</test>
+
+
 </suite> <!--
 Suite -->
