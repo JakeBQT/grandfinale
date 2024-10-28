@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Standart Login">
+		<parameter name="username" value="standard_user"></parameter>
+		<parameter name="password" value="secret_sauce"></parameter>
+		<classes>
+			<class
+				name="com.finaltest.puttingitalltogether.SauceDemoTestParametersFinal" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="Locked Out Login">
+		<parameter name="username" value="locked_out_user"></parameter>
+		<parameter name="password" value="secret_sauce"></parameter>
+		<classes>
+			<class
+				name="com.finaltest.puttingitalltogether.SauceDemoTestParametersFinal" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="Problem User Login">
+		<parameter name="username" value="problem_user"></parameter>
+		<parameter name="password" value="secret_sauce"></parameter>
+		<classes>
+			<class
+				name="com.finaltest.puttingitalltogether.SauceDemoTestParametersFinal" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="Performance Glitch Login">
+		<parameter name="username" value="performance_glitch_user"></parameter>
+		<parameter name="password" value="secret_sauce"></parameter>
+		<classes>
+			<class
+				name="com.finaltest.puttingitalltogether.SauceDemoTestParametersFinal" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="Error User Login">
+		<parameter name="username" value="error_user"></parameter>
+		<parameter name="password" value="secret_sauce"></parameter>
+		<classes>
+			<class
+				name="com.finaltest.puttingitalltogether.SauceDemoTestParametersFinal" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="Visual User Login">
+		<parameter name="username" value="visual_user"></parameter>
+		<parameter name="password" value="secret_sauce"></parameter>
+		<classes>
+			<class
+				name="com.finaltest.puttingitalltogether.SauceDemoTestParametersFinal" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
